@@ -1,0 +1,14 @@
+{
+  "name" : "Medium Auto Cookie Remover",
+  "version" : "0.1.0",
+  "description" : "Medium auto cookie remover. It will clear cookies when you enter the website so you can achieve unlimited story without login.",
+  "permissions": [ "cookies", "http://*/*", "https://*/*" ],
+  "icons": { "16": "m-cookie.png", "48": "m-cookie.png", "128": "m-cookie.png" },
+  "browser_action": {
+    "default_icon": "m-cookie.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "manifest_version": 2
+}
